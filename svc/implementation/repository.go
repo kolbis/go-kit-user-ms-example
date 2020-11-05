@@ -3,8 +3,8 @@ package implementation
 import (
 	"context"
 
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc"
 )
 
 type repo struct {

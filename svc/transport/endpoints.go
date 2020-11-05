@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	tlerabbitmq "github.com/thelotter-enterprise/corego/transport/rabbitmq"
-	"github.com/thelotter-enterprise/corego/utils"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	tlerabbitmq "github.com/kolbis/corego/transport/rabbitmq"
+	"github.com/kolbis/corego/utils"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc"
 )
 
 // Endpoints holds all Go kit endpoints for the Order service.

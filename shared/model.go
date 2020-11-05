@@ -3,7 +3,7 @@ package shared
 import (
 	"context"
 
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
+	tlehttp "github.com/kolbis/corego/transport/http"
 )
 
 // User ...

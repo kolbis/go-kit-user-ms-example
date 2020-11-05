@@ -7,12 +7,12 @@ import (
 	"github.com/streadway/amqp"
 
 	amqptransport "github.com/go-kit/kit/transport/amqp"
-	"github.com/thelotter-enterprise/corego/errors"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlerabbitmq "github.com/thelotter-enterprise/corego/transport/rabbitmq"
-	"github.com/thelotter-enterprise/corego/utils"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc/transport"
+	"github.com/kolbis/corego/errors"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlerabbitmq "github.com/kolbis/corego/transport/rabbitmq"
+	"github.com/kolbis/corego/utils"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc/transport"
 )
 
 // NewTransport will create all the rabbitMQ consumers information

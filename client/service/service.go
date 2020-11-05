@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
+	tlehttp "github.com/kolbis/corego/transport/http"
 )
 
 // ServiceMiddleware used to chain behaviors on the UserService using middleware pattern

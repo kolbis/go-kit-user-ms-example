@@ -3,7 +3,7 @@ package svc
 import (
 	"context"
 
-	"github.com/thelotter-enterprise/usergo/shared"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
 )
 
 // Service is the API exposed by the microservice

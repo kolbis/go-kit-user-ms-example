@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tleutils "github.com/thelotter-enterprise/corego/utils"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc"
+	tlelogger "github.com/kolbis/corego/logger"
+	tleutils "github.com/kolbis/corego/utils"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc"
 )
 
 // NewLoggingMiddleware ... ..

@@ -12,12 +12,12 @@ import (
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/sd"
 	httptransport "github.com/go-kit/kit/transport/http"
-	tlecb "github.com/thelotter-enterprise/corego/circuitbreaker"
-	tlectxhttp "github.com/thelotter-enterprise/corego/context/transport/http"
-	tlefallback "github.com/thelotter-enterprise/corego/fallback"
-	tlelimiter "github.com/thelotter-enterprise/corego/ratelimit"
-	"github.com/thelotter-enterprise/corego/utils"
-	"github.com/thelotter-enterprise/usergo/shared"
+	tlecb "github.com/kolbis/corego/circuitbreaker"
+	tlectxhttp "github.com/kolbis/corego/context/transport/http"
+	tlefallback "github.com/kolbis/corego/fallback"
+	tlelimiter "github.com/kolbis/corego/ratelimit"
+	"github.com/kolbis/corego/utils"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
 )
 
 // GetUserByIDFactory will return sd.Factory which will be used to constuct the transport endpoint

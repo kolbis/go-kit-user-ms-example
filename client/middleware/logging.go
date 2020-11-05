@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	tleclientsvc "github.com/thelotter-enterprise/usergo/client/service"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	tleclientsvc "github.com/kolbis/go-kit-user-ms-example/client/service"
 )
 
 // NewLoggingMiddleware ...

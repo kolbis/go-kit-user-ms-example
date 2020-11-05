@@ -6,9 +6,9 @@ import (
 	"time"
 
 	metrics "github.com/go-kit/kit/metrics"
-	tleinst "github.com/thelotter-enterprise/corego/metrics"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	tleclientsvc "github.com/thelotter-enterprise/usergo/client/service"
+	tleinst "github.com/kolbis/corego/metrics"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	tleclientsvc "github.com/kolbis/go-kit-user-ms-example/client/service"
 )
 
 // NewInstrumentingMiddleware ...

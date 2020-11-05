@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	tlectx "github.com/thelotter-enterprise/corego/context"
-	tletracer "github.com/thelotter-enterprise/corego/tracer"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc"
+	tlectx "github.com/kolbis/corego/context"
+	tletracer "github.com/kolbis/corego/tracer"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc"
 
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
+	tlelogger "github.com/kolbis/corego/logger"
 )
 
 type service struct {

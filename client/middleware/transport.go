@@ -5,11 +5,11 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/sd"
-	tleloadbalancer "github.com/thelotter-enterprise/corego/loadbalancer"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlesd "github.com/thelotter-enterprise/corego/servicediscovery"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	tleclientsvc "github.com/thelotter-enterprise/usergo/client/service"
+	tleloadbalancer "github.com/kolbis/corego/loadbalancer"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlesd "github.com/kolbis/corego/servicediscovery"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	tleclientsvc "github.com/kolbis/go-kit-user-ms-example/client/service"
 )
 
 // transportmw is used to make the actual call on the endpoint

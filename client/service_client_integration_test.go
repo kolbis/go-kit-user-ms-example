@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/go-kit/kit/log"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlesd "github.com/thelotter-enterprise/corego/servicediscovery"
-	"github.com/thelotter-enterprise/usergo/client"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlesd "github.com/kolbis/corego/servicediscovery"
+	"github.com/kolbis/go-kit-user-ms-example/client"
 )
 
 func TestClientIntegration(t *testing.T) {

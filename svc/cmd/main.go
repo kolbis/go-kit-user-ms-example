@@ -9,16 +9,16 @@ import (
 	"syscall"
 
 	kithttp "github.com/go-kit/kit/transport/http"
-	tlectx "github.com/thelotter-enterprise/corego/context"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlemetrics "github.com/thelotter-enterprise/corego/metrics"
-	tletracer "github.com/thelotter-enterprise/corego/tracer"
-	tlerabbitmq "github.com/thelotter-enterprise/corego/transport/rabbitmq"
-	tleimpl "github.com/thelotter-enterprise/usergo/svc/implementation"
-	svcmw "github.com/thelotter-enterprise/usergo/svc/middleware"
-	svctrans "github.com/thelotter-enterprise/usergo/svc/transport"
-	svcamqp "github.com/thelotter-enterprise/usergo/svc/transport/amqp"
-	svchttp "github.com/thelotter-enterprise/usergo/svc/transport/http"
+	tlectx "github.com/kolbis/corego/context"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlemetrics "github.com/kolbis/corego/metrics"
+	tletracer "github.com/kolbis/corego/tracer"
+	tlerabbitmq "github.com/kolbis/corego/transport/rabbitmq"
+	tleimpl "github.com/kolbis/go-kit-user-ms-example/svc/implementation"
+	svcmw "github.com/kolbis/go-kit-user-ms-example/svc/middleware"
+	svctrans "github.com/kolbis/go-kit-user-ms-example/svc/transport"
+	svcamqp "github.com/kolbis/go-kit-user-ms-example/svc/transport/amqp"
+	svchttp "github.com/kolbis/go-kit-user-ms-example/svc/transport/http"
 )
 
 func main() {

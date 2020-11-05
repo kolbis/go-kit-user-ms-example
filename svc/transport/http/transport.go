@@ -11,11 +11,11 @@ import (
 	kithttp "github.com/go-kit/kit/transport/http"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	tlectxhttp "github.com/thelotter-enterprise/corego/context/transport/http"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc/transport"
+	tlectxhttp "github.com/kolbis/corego/context/transport/http"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc/transport"
 )
 
 // NewTransport will set-up router and initialize http endpoints

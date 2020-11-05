@@ -4,13 +4,13 @@ import (
 	"context"
 
 	"github.com/gorilla/mux"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlemetrics "github.com/thelotter-enterprise/corego/metrics"
-	tleratelimit "github.com/thelotter-enterprise/corego/ratelimit"
-	tlesd "github.com/thelotter-enterprise/corego/servicediscovery"
-	tlehttp "github.com/thelotter-enterprise/corego/transport/http"
-	tleclientmw "github.com/thelotter-enterprise/usergo/client/middleware"
-	tleclientsvc "github.com/thelotter-enterprise/usergo/client/service"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlemetrics "github.com/kolbis/corego/metrics"
+	tleratelimit "github.com/kolbis/corego/ratelimit"
+	tlesd "github.com/kolbis/corego/servicediscovery"
+	tlehttp "github.com/kolbis/corego/transport/http"
+	tleclientmw "github.com/kolbis/go-kit-user-ms-example/client/middleware"
+	tleclientsvc "github.com/kolbis/go-kit-user-ms-example/client/service"
 )
 
 // ServiceClient is a facade for all APIs exposed by the service

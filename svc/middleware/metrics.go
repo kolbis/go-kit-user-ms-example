@@ -4,10 +4,10 @@ import (
 	"context"
 
 	metrics "github.com/go-kit/kit/metrics"
-	tlelogger "github.com/thelotter-enterprise/corego/logger"
-	tlemetrics "github.com/thelotter-enterprise/corego/metrics"
-	"github.com/thelotter-enterprise/usergo/shared"
-	"github.com/thelotter-enterprise/usergo/svc"
+	tlelogger "github.com/kolbis/corego/logger"
+	tlemetrics "github.com/kolbis/corego/metrics"
+	"github.com/kolbis/go-kit-user-ms-example/shared"
+	"github.com/kolbis/go-kit-user-ms-example/svc"
 )
 
 // NewInstrumentingMiddleware ..
