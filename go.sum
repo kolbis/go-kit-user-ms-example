@@ -299,6 +299,8 @@ github.com/kolbis/corego v0.0.0-20201101173225-de26b6340f87 h1:apMsH29vnam3p85Up
 github.com/kolbis/corego v0.0.0-20201101173225-de26b6340f87/go.mod h1:jv4VF/kupFnQ8IpIPTtm4jSxLjDW3vENsVCtkoRug4Y=
 github.com/kolbis/corego v0.0.0-20201105063329-d242111736bc h1:g6OubPj+vtY6f3wc7SZ8beOw3pLdVX/dzoOQNyZW59w=
 github.com/kolbis/corego v0.0.0-20201105063329-d242111736bc/go.mod h1:bH+F3/l0dEdUgS+mMzmkTVGbD5apDLAcCMjLOYcn1C8=
+github.com/kolbis/corego v0.1.9 h1:zwGqE6xy1ips7srAvyEOR70F+fmTdh3B525oUc22fc0=
+github.com/kolbis/corego v0.1.9/go.mod h1:bH+F3/l0dEdUgS+mMzmkTVGbD5apDLAcCMjLOYcn1C8=
 github.com/kolbis/corego v1.0.3 h1:nHwGlcron8t/G6eKoAHFlZUfdcpjAfLKvH/0ck5gb8g=
 github.com/kolbis/corego v1.0.3/go.mod h1:jv4VF/kupFnQ8IpIPTtm4jSxLjDW3vENsVCtkoRug4Y=
 github.com/kolbis/corego v1.0.5 h1:LWwvPT0SUBJ9ZiPxGurGDNxGHktVIsouH7k7UA8xLgw=

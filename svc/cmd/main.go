@@ -26,10 +26,10 @@ func main() {
 		serviceName      string                    = "user"
 		hostAddress      string                    = "localhost:8080"
 		zipkinURL        string                    = "http://localhost:9411/api/v2/spans"
-		rabbitMQUsername string                    = "thelotter"
-		rabbitMQPwd      string                    = "Dhvbuo1"
+		rabbitMQUsername string                    = "rabbituser"
+		rabbitMQPwd      string                    = "rabbitpwd"
 		rabbitMQHost     string                    = "int-k8s1"
-		rabbitMQVhost    string                    = "thelotter"
+		rabbitMQVhost    string                    = "rabbithost"
 		rabbitMQPort     int                       = 32672
 		env              string                    = "dev"
 		logLevel         tlelogger.AtomicLevelName = tlelogger.DebugLogLevel
@@ -82,8 +82,8 @@ func main() {
 		err := amqpServer.Run(ctx)
 		if err != nil {
 			errs <- err
-			fmt.Println(err)
-			done <- true
+			tlelogger.ErrorWithContext(ctx, logger, fmt.Sprintf("failed to run amqp server %s", err.Error()))
+			// done <- true
 		}
 	}()
 
