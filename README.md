@@ -53,16 +53,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[GO-KIT]("https://github.com/go-kit/kit") is one of the popular toolkit for building microservices in GO. Yet, it is still pretty combersome and hard to get started with. 
+[GO-KIT](https://github.com/go-kit/kit) is one of the popular toolkit for building microservices in GO. Yet, it is still pretty combersome and hard to get started with. 
 
 GO-KIT-USER-MS-EXAMPLE repo aims to help those who are considering using GO-KIT. 
 
-GO-KIT-USER-MS-EXAMPLE repo depends on [corego]("https://github.com/kolbis/corego") repo
+GO-KIT-USER-MS-EXAMPLE repo depends on [corego](https://github.com/kolbis/corego) repo
 
 ### Built With
 
-* [GO-KIT]("https://github.com/go-kit/kit")
-* [corego]("https://github.com/kolbis/corego")
+* [GO-KIT](https://github.com/go-kit/kit)
+* [corego](https://github.com/kolbis/corego)
 
 
 <!-- GETTING STARTED -->
